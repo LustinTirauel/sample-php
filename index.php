@@ -1,6 +1,6 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-require __DIR__ . 'object.inc';
+require ('object.inc');
 
 //$creator = new bibParser();
 
