@@ -1,6 +1,6 @@
 {
     "name": "ozresearch",
-    "description": "Research Website of Oğuz 'Oz' Buruk",
+    "description": "Research Website of Oguz 'Oz' Buruk",
     "type": "project",
     "require": {
         "ext-mbstring": "*",
