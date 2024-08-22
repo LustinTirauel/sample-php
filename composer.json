@@ -3,6 +3,7 @@
     "description": "Sample PHP application for App Platform",
     "type": "project",
     "require": {
+        "php": "^8.2.0",
         "alrik11es/cowsayphp": "^1.2",
         "ext-mbstring": "*",
         "ext-intl": "*"
