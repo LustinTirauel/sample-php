@@ -1,15 +1,14 @@
 {
     "name": "digitalocean-apps/sample-php",
-    "description": "Research Website of Oguz Buruk",
+    "description": "Sample PHP application for App Platform",
     "type": "project",
     "require": {
-        "ext-mbstring": "*",
         "alrik11es/cowsayphp": "^1.2"
     },
     "authors": [
         {
-            "name": "Oguz Buruk",
-            "email": "oguz.buruk@tuni.fi"
+            "name": "Kamal Nasser",
+            "email": "kamal@digitalocean.com"
         }
     ]
 }
