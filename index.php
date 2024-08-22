@@ -2,7 +2,9 @@
 require __DIR__ . '/vendor/autoload.php';
 require ('object.inc');
 
-phpinfo();
+use mbstring;
+
+//phpinfo();
 
 $creator = new bibParser();
 
