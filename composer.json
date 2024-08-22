@@ -4,8 +4,8 @@
     "type": "project",
     "require": {
         "alrik11es/cowsayphp": "^1.2",
-         "ext-mbstring": "*",
-         "ext-intl": "*",
+        "ext-mbstring": "*",
+        "ext-intl": "*"
     },
     "authors": [
         {
