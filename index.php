@@ -6,6 +6,7 @@ $creator = new bibParser();
 
 echo print_r('doing something');
 echo $creator -> letstest ("wow");
+echo mb_strtoupper ("omg");
 
 use Cowsayphp\Farm;
 
