@@ -2,7 +2,7 @@
 require __DIR__ . '/vendor/autoload.php';
 require ('object.inc');
 
-use mbstring;
+//use mbstring;
 
 //phpinfo();
 
@@ -10,7 +10,7 @@ $creator = new bibParser();
 
 echo print_r('doing something');
 echo $creator -> letstest ("wow");
-echo mb_strtoupper ("omg");
+//echo mb_strtoupper ("omg");
 
 use Cowsayphp\Farm;
 
