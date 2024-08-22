@@ -1,6 +1,6 @@
 {
-    "name": "ozresearch",
-    "description": "Research Website of Oguz 'Oz' Buruk",
+    "name": "digitalocean-apps/sample-php",
+    "description": "Research Website of Oguz Buruk",
     "type": "project",
     "require": {
         "ext-mbstring": "*",
