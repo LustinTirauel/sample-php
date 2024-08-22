@@ -2,6 +2,8 @@
 require __DIR__ . '/vendor/autoload.php';
 require ('object.inc');
 
+phpinfo();
+
 $creator = new bibParser();
 
 echo print_r('doing something');
