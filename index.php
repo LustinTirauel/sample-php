@@ -2,10 +2,10 @@
 require __DIR__ . '/vendor/autoload.php';
 //require ('object.inc');
 
-$creator = new bibParser();
+//$creator = new bibParser();
 
 echo print_r('doing something');
-echo $creator -> letstest ("wow");
+//echo $creator -> letstest ("wow");
 
 use Cowsayphp\Farm;
 
