@@ -81,11 +81,11 @@ class bibParser{
 	
 	public function getContent ($maxNumber, $pubtype, $pagetype, $project, $category, $dateprioritized){ //this function creates repeated entries for different pages. it orders entries in descending chronology. MaxNumber defines the maximum number of entries that will be placed. Pubtype defines the specific types of publications (option: paper, extended_abstract, game), especially for grouping in the main page. Page type defines the type of page in which the content is fethched (option: main, project, publication). $Project is for project pages and fetches the content according to the project they belong. $category is for publication list and adds the publications in a speccific category, e.g., peer-reviewed conference proceedings, $dateprioritized will sort the content according to date in an descending order if enabled
 		
-		if (file_exists("publications.bib"))
-			$file = file ("publications.bib");
+		if (file_exists(__DIR__ . "/publications.bib"))
+			$file = file (__DIR__ . "/publications.bib");
 		
 		else
-			$file = file ("../publications.bib");
+			$file = file (__DIR__ . "/../publications.bib");
 		
 		$filestr = implode ("",$file);
 		$splitbibtexentry = preg_split("/@/",$filestr);
